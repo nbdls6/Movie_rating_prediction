@@ -1,0 +1,1 @@
+**Goal**: Create a model that will predict movie critic ratings
