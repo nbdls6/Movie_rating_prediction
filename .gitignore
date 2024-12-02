@@ -1,5 +1,5 @@
 .env
 .DS_Store
 .ipynb_checkpoints
-movies_df_original.pkl
 pythonfp
+__pycache__
