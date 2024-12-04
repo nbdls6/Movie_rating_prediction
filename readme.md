@@ -14,7 +14,7 @@ Whether you're a film buff or a machine learning enthusiast, this project has so
 - **`feature_engineering_and_modeling.ipynb`**: The powerhouse notebook for feature engineering, predictive modeling, and evaluation.  
 
 ### **2. Data**  
-- **`movies_data.csv`**: The original dataset used for analysis.  
+- **`movies_df_original.csv`**: The original dataset used for analysis.  
 - Processed `.pkl` files created during feature engineering for reuse in modeling.  
 
 ### **3. Environment Details**  
@@ -56,30 +56,33 @@ Created meaningful features to enhance model performance:
 ---
 
 ### **🤖 4. Modeling**  
-- Split the data:  
-  - **Training**:
-  - **Test**:  
-- Built **6 Linear Regression Models**, starting simple and progressively incorporating engineered features.  
-- Evaluated models using:  
+- **Data Splitting**:
+  - The dataset was split into:
+    - **Training Set**: Used to train and optimize the models.
+    - **Test Set**: Used to evaluate the generalization of the models.
+
+- **Models Built**:
+  - A total of **6 Linear Regression Models** were constructed, starting from simple models and progressively incorporating engineered features to improve performance.
+
+
+- **Modeling Process**:
+  - **Baseline Model**: The first model was a simple linear regression using basic features like runtime and genre.
+  - **Enhanced Models**: Additional features such as "whether the movie is not rated," "movie length," and "director popularity" were iteratively added to improve prediction accuracy.
+  - **Best Model**: Model 5 was identified as the best-performing model based on evaluation metrics, balancing predictive power and interpretability.
+
+- **Evaluation Metrics**:  
   - 📊 **R²**: Coefficient of determination.  
   - 📉 **MAE**: Mean Absolute Error.  
   - 🔧 **RMSE**: Root Mean Squared Error.  
 
 ---
 
-## ✨ **Project Insights**  
-- **Best Model**: Identified the top-performing model and the features driving its success.  
-- **Key Takeaways**:
-  - 
-  - 
-
----
 
 ## 🛠️ **How to Run the Project**  
 
 ### **1. Clone the Repository**  
 ```bash
-git clone <your-private-repo-url>
+git clone <repo-url>
 cd <repository-name>
 ```
 
