@@ -12,6 +12,7 @@ Whether you're a film buff or a machine learning enthusiast, this project has so
 ### **1. Code**  
 - **`data_cleaning_and_eda.ipynb`**: A comprehensive notebook that performs data cleaning, exploratory analysis, and visualizations.  
 - **`feature_engineering_and_modeling.ipynb`**: The powerhouse notebook for feature engineering, predictive modeling, and evaluation.  
+- **`tmdbmovie.py`**: Series function used in data cleaniing process, includes mapping missing release data and missing rating.
 
 ### **2. Data**  
 - **`movies_df_original.csv`**: The original dataset used for analysis.  
